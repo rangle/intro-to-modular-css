@@ -16,10 +16,10 @@ const Modal = ({ title, isVisible, toggle, children }) => {
       { ({ y, opacity }) => {
         return (
           <aside style={ containerStyles }
-            className="fixed top-0 left-0 col-12 vh-100 flex items-center z4 bg-darken-4">
+            className="bg-darken-4">
 
             <div style={ getModalStyles(y, opacity) }
-              className="col-12 sm-col sm-col-8 mx-auto bg-white Modal">
+              className="bg-white Modal">
 
               <header className="bg-blue white flex items-center py2 center">
                 <div className="col-2"></div>
@@ -30,7 +30,7 @@ const Modal = ({ title, isVisible, toggle, children }) => {
                   onClick={ toggle }>✖︎</button>
               </header>
 
-              <div className="overflow-scroll px2">
+              <div className="">
                 { children }
               </div>
             </div>

@@ -1,4 +1,4 @@
 @import '../variables.css';
 
-.Sidebar { width: var(--sidebar-width); }
-.Sidebar__body { margin-left: var(--sidebar-width); }
+.Sidebar { }
+.Sidebar__body { }
