@@ -3,8 +3,8 @@ import './OffCanvasNav.css';
 
 const Header = ({ hamburgerAction }) => {
   return (
-    <header className="flex-none flex items-center bg-blue white h3 OffCanvasNav__header">
-      <div className="pointer px2 self-stretch flex items-center"
+    <header className="bg-blue white h3 OffCanvasNav__header">
+      <div className="pointer px2"
         onClick={ hamburgerAction }>
         <svg className="icon" viewBox="0 0 20 20">
           <path fill="#fff" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314

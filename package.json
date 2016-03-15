@@ -8,6 +8,7 @@
     "html": "cp index.html dist/index.html && cp exercises.html dist/exercises.html",
     "build": "npm run clean&& NODE_ENV=production webpack --config webpack.config.production.js && npm run html",
     "lint": "eslint --ext .js,.jsx src",
+    "lint-css": "stylelint './exercises/**/*.css'",
     "deploy": "bash deploy.sh",
     "start": "node server.js"
   },

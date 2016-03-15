@@ -15,16 +15,16 @@ class OffCanvasNav extends Component {
     const { sidebarVisible } = this.state;
     const offset = sidebarVisible ? '50%' : '0';
     const styles = {
-      transform: `translate3d(${ offset }, 0, 0)`,
+      transform: '',
       transition: `transform 300ms ease-in-out`,
     };
 
     return (
       <div>
-        <aside className="vh-100 bg-navy absolute top-0 left-0 bottom-0 col-6 z-1">
+        <aside className="bg-navy">
         </aside>
 
-        <main className="vh-100 bg-white flex flex-column" style={ styles }>
+        <main className="bg-white flex flex-column" style={ styles }>
           <Header hamburgerAction={ this.toggleSidebar } />
           <div className="p2 flex-auto overflow-scroll">
             <img src="http://placehold.it/600" />
