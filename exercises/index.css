@@ -2,6 +2,7 @@
  * Exercises
  */
 @import 'basscss-basic';
+@import 'tachyons/src/tachyons';
 
 /* Basscss Modules */
 @import 'basscss-type-scale';
