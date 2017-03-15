@@ -21990,7 +21990,7 @@
 	      return _react2['default'].createElement(
 	        'div',
 	        null,
-	        _react2['default'].createElement('aside', { className: 'vh-100 bg-navy absolute top-0 left-0 bottom-0 w-50 z-1' }),
+	        _react2['default'].createElement('aside', { className: 'vh-100 bg-navy absolute top-0 left-0 bottom-0 w-50 z--1' }),
 	        _react2['default'].createElement(
 	          'main',
 	          { className: 'vh-100 bg-white flex flex-column', style: styles },
