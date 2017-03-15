@@ -21853,7 +21853,7 @@
 	    return _react2['default'].createElement(
 	      'li',
 	      { key: idx,
-	        className: 'mb1 px2 py1 pointer highlight',
+	        className: 'mb1 pv1 pointer dim',
 	        onClick: function () {
 	          return goTo(key);
 	        } },
@@ -21863,15 +21863,15 @@
 
 	  return _react2['default'].createElement(
 	    'div',
-	    { className: 'max-width-4 mx-auto p2' },
+	    { className: 'mw8 center pa2' },
 	    _react2['default'].createElement(
 	      'h3',
-	      { className: 'blue caps' },
+	      { className: 'blue ttu tracked' },
 	      'Exercises'
 	    ),
 	    _react2['default'].createElement(
 	      'ul',
-	      { className: 'list-reset h2' },
+	      { className: 'list f4 pl0' },
 	      options
 	    )
 	  );
