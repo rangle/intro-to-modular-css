@@ -3,8 +3,8 @@ import './OffCanvasNav.css';
 
 const Header = ({ hamburgerAction }) => {
   return (
-    <header className="bg-blue white h3 OffCanvasNav__header">
-      <div className="pointer px2"
+    <header className="bg-blue white f4 OffCanvasNav__header">
+      <div className="pointer ph3"
         onClick={ hamburgerAction }>
         <svg className="icon" viewBox="0 0 20 20">
           <path fill="#fff" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
@@ -13,7 +13,7 @@ const Header = ({ hamburgerAction }) => {
                     c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z" />
         </svg>
       </div>
-      <h3 className="caps m0 trim">Off Canvas Nav</h3>
+      <h3 className="ttu tracked ma0 truncate">Off Canvas Nav</h3>
     </header>
   );
 };

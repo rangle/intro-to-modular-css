@@ -14,12 +14,12 @@ export default class ModalView extends Component {
 
     return (
       <div>
-        <div className="p2">
-          <h3 className="caps bold">Here be modals</h3>
+        <div className="pa2">
+          <h3 className="ttu tracked bold">Here be modals</h3>
           <p>Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.</p>
           <p>Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.</p>
-          <p className="center m3">
-            <button className="btn"
+          <p className="center ma3">
+            <button className="f6 link dim bn ph3 pv2 mb2 dib white bg-dark-blue"
               onClick={ this.toggleModal }>Open Modal</button>
           </p>
         </div>

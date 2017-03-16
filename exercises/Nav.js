@@ -13,7 +13,7 @@ const Nav = ({ goTo }) => {
   const options = Object.keys(viewOptions).map((key, idx) => {
     return (
       <li key={ idx }
-        className="mb1 px2 py1 pointer highlight"
+        className="mb1 pv1 pointer dim"
         onClick={ () => goTo(key) }>
         { viewOptions[key] }
       </li>
@@ -21,9 +21,9 @@ const Nav = ({ goTo }) => {
   });
 
   return (
-    <div className="max-width-4 mx-auto p2">
-      <h3 className="blue caps">Exercises</h3>
-      <ul className="list-reset h2">
+    <div className="mw8 center pa2">
+      <h3 className="blue ttu tracked">Exercises</h3>
+      <ul className="list f4 pl0">
         { options }
       </ul>
     </div>
