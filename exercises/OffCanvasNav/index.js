@@ -26,7 +26,7 @@ class OffCanvasNav extends Component {
 
         <main className="bg-white flex flex-column" style={ styles }>
           <Header hamburgerAction={ this.toggleSidebar } />
-          <div className="p2 flex-auto overflow-scroll">
+          <div className="pa2 flex-auto overflow-scroll">
             <img src="http://placehold.it/600" />
             <img src="http://placehold.it/600" />
             <img src="http://placehold.it/600" />

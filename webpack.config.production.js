@@ -24,11 +24,7 @@ module.exports = {
         'NODE_ENV': JSON.stringify('production')
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        warnings: false
-      }
-    })
+    new webpack.NoErrorsPlugin(),
   ],
   module: {
     loaders: [{
@@ -37,7 +33,7 @@ module.exports = {
       loader: 'babel'
     }, {
       test: /\.css$/,
-      loader: 'style-loader!css-loader!postcss'
+      loaders: ['style', 'css', 'postcss']
     }, {
       test: /\.svg$/,
       loader: 'url?limit=10000&mimetype=image/svg+xml',
