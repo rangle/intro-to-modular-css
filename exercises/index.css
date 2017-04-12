@@ -13,8 +13,10 @@
 .z--1 { z-index: -1; }
 .highlight:hover { background-color: var(--darken-1); }
 
+/* stylelint-disable */
 .translate-center {
 }
+/* stylelint-enable */
 
 /**
  * Icon

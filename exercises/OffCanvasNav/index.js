@@ -15,7 +15,7 @@ class OffCanvasNav extends Component {
     const { sidebarVisible } = this.state;
     const offset = sidebarVisible ? '50%' : '0';
     const styles = {
-      transform: '',
+      transform: `translate3d(${ offset }, 0, 0)`,
       transition: `transform 300ms ease-in-out`,
     };
 
