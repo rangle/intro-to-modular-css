@@ -5,7 +5,7 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div>
-      <aside className="fixed top-0 bottom-0 left-0 w-25 bg-light-blue Sidebar">
+      <aside className="fixed top-0 bottom-0 left-0 bg-light-blue Sidebar">
         <h3 className="ttu tracked bold navy ph3">Sidebar</h3>
         <ul className="list pl0 navy">
           <li className="ph3 pv2">List Reset</li>

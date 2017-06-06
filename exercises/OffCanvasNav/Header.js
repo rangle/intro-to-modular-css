@@ -3,7 +3,7 @@ import './OffCanvasNav.css';
 
 const Header = ({ hamburgerAction }) => {
   return (
-    <header className="flex-none flex items-center bg-blue white f4 OffCanvasNav__header">
+    <header className="flex flex-none items-center bg-blue white f4 OffCanvasNav__header">
       <div className="pointer ph3 self-stretch flex items-center"
         onClick={ hamburgerAction }>
         <svg className="icon" viewBox="0 0 20 20">

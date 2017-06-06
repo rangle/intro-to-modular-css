@@ -21,7 +21,7 @@ class OffCanvasNav extends Component {
 
     return (
       <div>
-        <aside className="vh-100 bg-navy absolute top-0 left-0 bottom-0 w-50 z--1">
+        <aside className="bg-navy absolute top-0 left-0 bottom-0 w-50 z--1">
         </aside>
 
         <main className="vh-100 bg-white flex flex-column" style={ styles }>

@@ -5,7 +5,7 @@ import './VerticalCentering.css';
 const VerticalCentering = () => {
   return (
     <div>
-      <div className="bg-red white mb4 center VerticalCentering__container">
+      <div className="flex items-center pa3 bg-red white mb4 center VerticalCentering__container">
         Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock.
       </div>
 
@@ -18,7 +18,7 @@ const VerticalCentering = () => {
         </div>
       </div>
 
-      <div className="bg-red white relative vh-50">
+      <div className="flex items-center justify-center bg-red white relative vh-50">
         <div className="translate-center">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock.</div>
       </div>
     </div>

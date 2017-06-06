@@ -1,3 +1,7 @@
 @import '../variables.css';
 
 .OffCanvasNav__header { height: var(--header-height); }
+
+body {
+  margin: 0;
+}
