@@ -21,7 +21,7 @@
     "react": "0.14.3",
     "react-dom": "0.14.3",
     "react-motion": "0.4.2",
-    "spectacle": "1.0.0"
+    "spectacle": "1.2.5"
   },
   "devDependencies": {
     "autoprefixer": "6.3.2",
