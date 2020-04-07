@@ -18,8 +18,8 @@
   "dependencies": {
     "normalize.css": "3.0.3",
     "radium": "0.16.6",
-    "react": "0.14.3",
-    "react-dom": "0.14.3",
+    "react": "0.14.9",
+    "react-dom": "0.14.9",
     "react-motion": "0.4.2",
     "spectacle": "1.0.0"
   },
