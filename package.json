@@ -11,7 +11,9 @@
     "lint-css": "stylelint './exercises/**/*.css'",
     "test": "npm run lint && npm run lint-css",
     "deploy": "bash deploy.sh",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "Varun Vachhar <varunvachhar@gmail.com>",
   "license": "MIT",
@@ -21,7 +23,8 @@
     "react": "0.14.3",
     "react-dom": "0.14.3",
     "react-motion": "0.4.2",
-    "spectacle": "1.0.0"
+    "spectacle": "1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "autoprefixer": "6.3.2",
@@ -56,5 +59,6 @@
     "webpack": "1.12.8",
     "webpack-dev-middleware": "1.2.0",
     "webpack-hot-middleware": "2.5.0"
-  }
+  },
+  "snyk": true
 }
